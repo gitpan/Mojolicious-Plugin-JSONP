@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::JSONP;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub register {
   my ($self, $app, $conf) = @_;
@@ -58,7 +58,7 @@ If a callback is not supplied, only the JSON structure is returned.
 
 Given the following configuration:
 
-  plugin JSON => callback => 'callback_function';
+  plugin JSONP => callback => 'callback_function';
 
 And the following action:
 

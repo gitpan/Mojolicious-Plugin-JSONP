@@ -16,4 +16,4 @@ requires:
   Mojolicious: 3.0
 resources:
   repository: git://github.com/tempire/mojolicious-plugin-jsonp.git
-version: 0.01
+version: 0.02
